@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../IMG/background.png);
+  background-size: cover;
+  background-position: right top;
+  background-color: white;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.logo {
+  background-color: thistle;
+}
+.menu {
+  background-color: tomato;
+}
+main {
+  flex-grow: 1;
+  background-color: tomato;
+}
+footer {
+  flex-grow: 0;
+  background-color: teal;
+}
