@@ -19,14 +19,17 @@ main h2 {
   color: #af0d0d;
 }
 .container-texto {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   width: 900px;
-  height: 200px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 80px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.container-lendas > h2 {
+  font-size: 2rem;
 }
 main a {
   display: flex;
@@ -46,4 +49,19 @@ main a:hover {
   color: cornsilk;
   background-color: black;
   border: 1px solid #af0d0d;
+}
+main ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 1.4rem;
+}
+.informação > li {
+  border-right-style: solid;
+  border-right-color: red;
+  border-right-width: 4px;
+  width: 13%;
+  flex-wrap: wrap;
+  list-style: none;
 }

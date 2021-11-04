@@ -48,17 +48,12 @@ header {
 .dropdown-submenu li:hover {
   background-color: red;
 }
-main ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 50px;
-}
+
 .subtitulo {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Rufina", serif;
-  color: aliceblue;
-  webkit-text-stroke: 1px #fff;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #fff;
   text-stroke: 1px #fff;
 }
