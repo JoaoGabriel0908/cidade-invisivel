@@ -61,7 +61,7 @@ main ul {
   border-right-style: solid;
   border-right-color: red;
   border-right-width: 4px;
-  width: 13%;
+  width: 20%;
   flex-wrap: wrap;
   list-style: none;
 }
