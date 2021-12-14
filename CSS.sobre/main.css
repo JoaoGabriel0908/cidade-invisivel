@@ -10,10 +10,10 @@ main {
 }
 .subtitulo {
   position: absolute;
-  width: 1200px;
+  width: 500px;
   justify-content: center;
   top: 209px;
-  font-size: 500px;
+  font-size: 20px;
   line-height: 0px;
   text-align: center;
   align-items: center;
